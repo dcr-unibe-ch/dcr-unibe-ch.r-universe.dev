@@ -1,0 +1,74 @@
+---
+output: github_document
+---
+
+# DCR's R Package universe <a href="https://dcr-unibe-ch.r-universe.dev/"><img src='logo.png' align="right" height="200"></a>
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+R package universes are similar a bit like mini-CRANs. 'The system automatically tracks registered git repositories containing R packages, builds binaries for Windows and MacOS, renders vignettes, and makes all data available through dashboards, feeds and APIs on personal subdomains'. 
+
+DCRs universe is [here](https://dcr-unibe-ch.r-universe.dev).
+
+## Packages in the universe
+
+```{r , echo = FALSE, message = FALSE, results='hide'}
+pkgs <- httr2::request("https://dcr-unibe-ch.r-universe.dev/api/packages") |>
+  httr2::req_user_agent("R-universe docs") |>
+  httr2::req_perform() |>
+  httr2::resp_body_json()
+pkgs <- sapply(pkgs, function(x){
+  data.frame(Package = x$Package,
+             Description = x$Description,
+             RemoteUrl = x$RemoteUrl)
+}, simplify = FALSE) |> dplyr::bind_rows()
+pkgs <- pkgs[order(pkgs$Package), ]
+pkgs$Description <- gsub("\n", " ", pkgs$Description, fixed = TRUE)
+
+```
+
+```{r pressure, echo=FALSE, results='asis'}
+knitr::kable(do.call("rbind", lapply(pkgs$Package, function(x) {
+  data.frame(package = glue::glue("[`{x}`]({pkgs$RemoteUrl[pkgs$Package == x]})"), 
+             description = pkgs$Description[pkgs$Package == x],
+             status = glue::glue(" ![](https://dcr-unibe-ch.r-universe.dev/badges/{x}) "))
+  })))
+```
+
+## For users...
+
+All vignettes are accessible via the [articles button](https://dcr-unibe-ch.r-universe.dev/ui#articles) on the universe page.
+
+To use the universe, in R, do the following, which adds the universe to your list of repos (when installing packages, R will cycle through the repos until it finds the appropriate package)...
+
+```{r, eval = FALSE}
+options(repos = c(CTU = "https://dcr-unibe-ch.r-universe.dev",
+                  CRAN = "https://cran.rstudio.com/"))
+```
+
+It is then possible to install universe packages as if they were CRAN packages...
+
+```{r, eval = FALSE}
+install.packages("accrualPlot")
+```
+
+Alternatively, you can install without setting the option:
+
+```{r, eval = FALSE}
+install.packages("accrualPlot", repos = c("https://dcr-unibe-ch.r-universe.dev", "https://cran.rstudio.com/"))
+```
+
+(it is important to also include a CRAN mirror so that dependencies can be installed)
+
+## For maintainers...
+
+A dashboard of the included packages and build status can be found [here](https://"https://cran.rstudio.com/".r-universe.dev/ui#builds). 
+
+Briefly, packages should be added to [packages.json](packages.json). They are then tracked on [r-universe](https://github.com/r-universe/"https://cran.rstudio.com/") and built each hour. [See here for further details of universes](https://ropensci.org/blog/2021/06/22/setup-runiverse/)
+
+
+### Acknowledgements
+
+The package logo was created with [`ggplot2`](https://ggplot2.tidyverse.org/) and [`hexSticker`](https://github.com/GuangchuangYu/hexSticker).
