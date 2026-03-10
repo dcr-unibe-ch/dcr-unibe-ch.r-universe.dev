@@ -2,5 +2,9 @@
     {
         "package": "presize",
         "url": "https://github.com/dcr-unibe-ch/presize"
+    },
+    {
+        "package": "randotools",
+        "url": "https://github.com/dcr-unibe-ch/randotools"
     }
 ]
