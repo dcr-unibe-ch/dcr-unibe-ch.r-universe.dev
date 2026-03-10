@@ -1,10 +1,18 @@
 [
     {
+        "package": "CTUtemplate",
+        "url": "https://github.com/dcr-unibe-ch/CTUtemplate"
+    },
+    {
         "package": "presize",
         "url": "https://github.com/dcr-unibe-ch/presize"
     },
     {
         "package": "randotools",
         "url": "https://github.com/dcr-unibe-ch/randotools"
+    },
+    {
+        "package": "redcaptools",
+        "url": "https://github.com/dcr-unibe-ch/redcaptools"
     }
 ]
