@@ -20,6 +20,10 @@
         "url": "https://github.com/dcr-unibe-ch/redcaptools"
     },
     {
+        "package": "svn",
+        "url": "https://github.com/dcr-unibe-ch/svn"
+    },
+    {
         "package": "unibeCols",
         "url": "https://github.com/dcr-unibe-ch/unibeCols"
     }
