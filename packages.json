@@ -4,8 +4,16 @@
         "url": "https://github.com/dcr-unibe-ch/accrualPlot"
     },
     {
+        "package": "btabler",
+        "url": "https://github.com/dcr-unibe-ch/btabler"
+    },
+    {
         "package": "CTUtemplate",
         "url": "https://github.com/dcr-unibe-ch/CTUtemplate"
+    },
+    {
+        "package": "kpitools",
+        "url": "https://github.com/dcr-unibe-ch/kpitools"
     },
     {
         "package": "presize",
