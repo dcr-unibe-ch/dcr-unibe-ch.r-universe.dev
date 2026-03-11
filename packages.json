@@ -1,5 +1,9 @@
 [
     {
+        "package": "accrualPlot",
+        "url": "https://github.com/dcr-unibe-ch/accrualPlot"
+    },
+    {
         "package": "CTUtemplate",
         "url": "https://github.com/dcr-unibe-ch/CTUtemplate"
     },
@@ -14,5 +18,9 @@
     {
         "package": "redcaptools",
         "url": "https://github.com/dcr-unibe-ch/redcaptools"
+    },
+    {
+        "package": "unibeCols",
+        "url": "https://github.com/dcr-unibe-ch/unibeCols"
     }
 ]
