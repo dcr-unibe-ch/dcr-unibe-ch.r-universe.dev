@@ -20,6 +20,10 @@
         "url": "https://github.com/dcr-unibe-ch/kpitools"
     },
     {
+        "package": "powergrid",
+        "url": "https://github.com/SwissClinicalTrialOrganisation/powergrid"
+    },
+    {
         "package": "presize",
         "url": "https://github.com/dcr-unibe-ch/presize"
     },
@@ -30,6 +34,22 @@
     {
         "package": "redcaptools",
         "url": "https://github.com/dcr-unibe-ch/redcaptools"
+    },
+    {
+        "package": "SCTORvalidation",
+        "url": "https://github.com/SwissClinicalTrialOrganisation/SCTORvalidation_Rpackage"
+    },
+    {
+        "package": "secuTrialR",
+        "url": "https://github.com/SwissClinicalTrialOrganisation/secuTrialR"
+    },
+    {
+        "package": "sse",
+        "url": "https://github.com/thofab/sse"
+    },
+    {
+        "package": "survSAKK",
+        "url": "https://github.com/SAKK-Statistics/survSAKK"
     },
     {
         "package": "svn",
