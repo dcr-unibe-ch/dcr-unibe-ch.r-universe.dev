@@ -12,6 +12,10 @@
         "url": "https://github.com/dcr-unibe-ch/CTUtemplate"
     },
     {
+        "package": "forplot",
+        "url": "https://github.com/dcr-unibe-ch/forplot"
+    },
+    {
         "package": "harmBounds",
         "url": "https://github.com/dcr-unibe-ch/harmBounds"
     },
