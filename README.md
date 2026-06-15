@@ -68,7 +68,7 @@ A dashboard of the included packages and build status can be found
 
 Briefly, packages should be added to [packages.json](packages.json).
 They are then tracked on
-[r-universe](https://github.com/r-universe/dcr-unibe-ch)
+[r-universe](https://github.com/r-universe/%22https://cran.rstudio.com/%22)
 and built each hour. [See here for further details of
 universes](https://ropensci.org/blog/2021/06/22/setup-runiverse/)
 
