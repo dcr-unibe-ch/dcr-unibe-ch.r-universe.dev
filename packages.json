@@ -20,6 +20,10 @@
         "url": "https://github.com/dcr-unibe-ch/forplot"
     },
     {
+        "package": "gtsummarytools",
+        "url": "https://github.com/dcr-unibe-ch/gtsummarytools"
+    },
+    {
         "package": "harmBounds",
         "url": "https://github.com/dcr-unibe-ch/harmBounds"
     },
