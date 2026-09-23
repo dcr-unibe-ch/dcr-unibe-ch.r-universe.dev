@@ -4,6 +4,10 @@
         "url": "https://github.com/dcr-unibe-ch/accrualPlot"
     },
     {
+        "package": "AdaptiveDesignSim",
+        "url": "https://github.com/dcr-unibe-ch/AdaptiveDesignSim"
+    },
+    {
         "package": "btabler",
         "url": "https://github.com/dcr-unibe-ch/btabler"
     },
