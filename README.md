@@ -14,6 +14,7 @@ DCRs universe is [here](https://dcr-unibe-ch.r-universe.dev).
 | package | description | status |
 |:---|:---|:---|
 | [`accrualPlot`](https://github.com/dcr-unibe-ch/accrualPlot) | Tracking accrual in clinical trials is important for trial success. If accrual is too slow, the trial will take too long and be too expensive. If accrual is much faster than expected, time sensitive tasks such as the writing of statistical analysis plans might need to be rushed. ‘accrualPlot’ provides functions to aid the tracking of accrual and predict when a trial will reach it’s intended sample size. | ![](https://dcr-unibe-ch.r-universe.dev/badges/accrualPlot) |
+| [`AdaptiveDesignSim`](https://github.com/dcr-unibe-ch/AdaptiveDesignSim) | Simulates trials with adaptive designs and calculates opering characteriscs. | ![](https://dcr-unibe-ch.r-universe.dev/badges/AdaptiveDesignSim) |
 | [`btabler`](https://github.com/dcr-unibe-ch/btabler) | There are a number of packages for creating LaTeX tables from R, but they lack feature like merging cells. `btabler` provides a function to do just that. | ![](https://dcr-unibe-ch.r-universe.dev/badges/btabler) |
 | [`CTUtemplate`](https://github.com/dcr-unibe-ch/CTUtemplate) | Templates and functions for use in CTU Bern. | ![](https://dcr-unibe-ch.r-universe.dev/badges/CTUtemplate) |
 | [`forplot`](https://github.com/dcr-unibe-ch/forplot) | The package generates forest plots. | ![](https://dcr-unibe-ch.r-universe.dev/badges/forplot) |
