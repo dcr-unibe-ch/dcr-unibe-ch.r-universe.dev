@@ -8,6 +8,10 @@
         "url": "https://github.com/dcr-unibe-ch/AdaptiveDesignSim"
     },
     {
+        "package": "artcatr",
+        "url": "https://github.com/dcr-unibe-ch/artcatr"
+    },
+    {
         "package": "btabler",
         "url": "https://github.com/dcr-unibe-ch/btabler"
     },
