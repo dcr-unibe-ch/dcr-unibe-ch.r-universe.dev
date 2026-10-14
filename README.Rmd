@@ -64,9 +64,9 @@ install.packages("accrualPlot", repos = c("https://dcr-unibe-ch.r-universe.dev",
 
 ## For maintainers...
 
-A dashboard of the included packages and build status can be found [here](https://"https://cran.rstudio.com/".r-universe.dev/ui#builds). 
+A dashboard of the included packages and build status can be found [here](https://dcr-unibe-ch.r-universe.dev/ui#builds). 
 
-Briefly, packages should be added to [packages.json](packages.json). They are then tracked on [r-universe](https://github.com/r-universe/"https://cran.rstudio.com/") and built each hour. [See here for further details of universes](https://ropensci.org/blog/2021/06/22/setup-runiverse/)
+Briefly, packages should be added to [packages.json](packages.json). They are then tracked on [r-universe](https://github.com/r-universe/dcr-unibe-ch) and built each hour. [See here for further details of universes](https://ropensci.org/blog/2021/06/22/setup-runiverse/)
 
 
 ### Acknowledgements
