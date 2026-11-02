@@ -20,6 +20,10 @@
         "url": "https://github.com/dcr-unibe-ch/CTUtemplate"
     },
     {
+        "package": "DxPower",
+        "url": "https://github.com/dcr-unibe-ch/DxPower"
+    },
+    {
         "package": "forplot",
         "url": "https://github.com/dcr-unibe-ch/forplot"
     },
